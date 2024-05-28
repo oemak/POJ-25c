@@ -4,11 +4,12 @@ public class Czas {
     public int godziny;
     public int minuty;
 
-    Czas(int godziny, int minuty) {
+    public Czas(int godziny, int minuty) {
         this.godziny = godziny;
         this.minuty = minuty;
     }
 
+    @Override
     public String toString() {
         return godziny + "h " + minuty + "min";
     }
