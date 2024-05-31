@@ -34,6 +34,8 @@ public class Main {
         System.out.println(r + " białych znaków");
         System.out.println(p + " liczb");
         System.out.println(s + " innych znaków");
+
+        scan.close();
     }
 
     public static boolean isSamogloska(char ch) {
