@@ -1,3 +1,5 @@
+package LAB07.zad03;
+
 import javax.swing.*;
 
 public class Divider {
