@@ -2,13 +2,12 @@ package LAB08.zad02;
 
 import java.io.*;
 
-public class FileReader {
+public class FileReading {
     public static void main(String[] args) {
         int sum = 0;
 
-        try (FileInputStream fileInputStream = new FileInputStream("LAB08/zad02/input")) {
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        try (FileReader fileReader = new FileReader("LAB08/zad02/input")) {
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
             
             String linia;
             int liniaNum = 1;
